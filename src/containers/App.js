@@ -23,6 +23,7 @@ class App extends Component {
       <h1>Loading</h1>
     ) : (
       <div className="tc">
+        <Header />
         <SearchBox searchChange={onSearchChange} />
         <Scroll>
           <ErrorBoundary>
